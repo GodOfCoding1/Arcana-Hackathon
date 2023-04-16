@@ -43,6 +43,7 @@ In "Backend" Directory
 
 - Running backend server
     change directory to \stocks	then do 
+
   	  python manage.py runserver
     
 ### 2) Locally Hosting frontend
