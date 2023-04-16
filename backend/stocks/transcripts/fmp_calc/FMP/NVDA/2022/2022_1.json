@@ -1,0 +1,7 @@
+{
+    "symbol": "NVDA",
+    "quarter": 1,
+    "year": 2022,
+    "date": "2021-05-26 23:46:20",
+    "content": " Our Enterprise software used to be just about the BGP, which is virtualizing GPU inside the VMware environment, or inside the Red Hat environment and makes it possible for multiple users to use one GPU, which is the nature of Enterprise virtualization, but now with NVIDIA AI, NVIDIA Omniverse, NVIDIA Fleet Command, whether you're doing collaboration or virtual simulations for robotics and digital twins, design your factory or you're doing data analytics, learning what the predictive features are that could create an AI model, predictive model that you can deploy out at the Edge using Fleet Command."
+}

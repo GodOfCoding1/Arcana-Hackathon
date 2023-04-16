@@ -1,0 +1,7 @@
+{
+    "symbol": "BLZE",
+    "quarter": 2,
+    "year": 2022,
+    "date": "2022-08-14 01:26:10",
+    "content": " Moving URSTYLE data from S3 to Backblaze B2 dramatically reduced its storage costs, including reducing egress costs to zero because Backblaze charges zero egress fees to URSTYLE's CDM provider and other Backblaze developer partners Additionally, by using Backblaze's free universal data migration service to transfer their data, it was easy and free to move URSTYLE's data out of S3, primarily because of B2's S3 compatible APIs, the migration was seamless and required zero code changes. So, I think what we've generally talked about is that a recession if one happens is not necessarily good for small and medium businesses, but to the extent that companies are looking for ways to trim costs going from one of the traditional providers to Backblaze B2, saves them a tremendous amount since we're about one-fifth of the price point."
+}

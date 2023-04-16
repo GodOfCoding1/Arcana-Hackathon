@@ -1,0 +1,7 @@
+{
+    "symbol": "RGTI",
+    "quarter": 4,
+    "year": 2022,
+    "date": "2023-03-27 20:41:03",
+    "content": " We'll continue to work on to improve Ankaa-1 performance over the next few months, with a goal to reach Median 2-Q Fidelity of 98% and anticipate making it available for select customers in mid-2023. And I'm just wondering if you've done any internal work today trying to link Ankaa to maintain that higher 98%, 99% fidelity as you begin to tile these devices together, because I think that would be obviously the next key to scaling the technology. We have some basic work done, which shows that we should be able to do the same with Ankaa with high fidelity, but that's mostly at on a much smaller scale and simulation kind of work, because we don't have a Ankaa type chip at 98% or 99% fidelity today."
+}

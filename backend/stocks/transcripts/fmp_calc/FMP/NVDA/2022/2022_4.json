@@ -1,0 +1,7 @@
+{
+    "symbol": "NVDA",
+    "quarter": 4,
+    "year": 2022,
+    "date": "2022-02-16 22:12:03",
+    "content": " Starting in 2025, all new Jaguar and Land Rover vehicles will have next-generation automated driving systems, plus AI-enabled software and services built on the NVIDIA DRIVE platform. Meta Platforms unveils its new AI supercomputer research, SuperCluster, with over 6,000 A100 GPUs moved to an NVIDIA -- Meta's early benchmarks showed its system can train large natural language processing models 3x faster and run computer vision jobs 20x faster than the prior system. And so we have products that span a broad reach of use cases for data centers from training of AI models to inferencing at very large scale, to universal GPUs for public cloud, industry standard servers, community servers for enterprise use and supercomputing systems that use InfiniBand and quantum switches. And so we love to see the expansion of CPU footprints, and we're just thrilled that Arm is now growing into robotics and autonomous vehicles and cloud computing and supercomputing and in all these different applications, and we intend to bring the full spectrum of NVIDIA's accelerated computing platform to NVIDIA Arm CPUs. But our software business really, really started several years ago with virtual GPUs, but this year was when we really stepped it up and offered for the very first time NVIDIA AI Enterprise, Omniverse and DRIVE."
+}

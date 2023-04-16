@@ -1,0 +1,7 @@
+{
+    "symbol": "HCP",
+    "quarter": 2,
+    "year": 2023,
+    "date": "2022-09-01 21:06:03",
+    "content": " Before diving into more details about the second quarter, I'd like to take a few minutes today to outline how we help enterprises transition to and operate in the cloud, and inevitably multi-cloud, by delivering a suite of cloud infrastructure and security automation products that provide a consistent cloud operating model. So continuing to feel good about Consul there and optimistic about the traction, as Dave mentioned, releasing net new products like HCP Consul on Azure, so continuing to bring the cloud service on to additional regions and additional clouds, which is expanding the surface area of customers we can address. And I think particularly within the cloud portfolio, right, within HCP, I think the core design has been that we want that to be a common chassis so as customers come in, it's seamless for them to expand from one product to multiple products. Actually, in quarter, a customer out of Asia Pacific region, signing up on cloud product with one initial product and then in quarter during an expansion to two additional products, I think, is a great example of that kind of motion working particularly well in cloud, where there's lower friction to it."
+}

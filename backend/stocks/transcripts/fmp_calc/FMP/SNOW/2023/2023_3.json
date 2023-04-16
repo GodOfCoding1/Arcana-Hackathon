@@ -1,0 +1,7 @@
+{
+    "symbol": "SNOW",
+    "quarter": 3,
+    "year": 2023,
+    "date": "2022-11-30 19:37:05",
+    "content": " Well, Raimo, in terms of -- from a revenue perspective, most of the revenue is really driven by our existing customers because it takes customers time to get their data into Snowflake and ramp up production. So we all along have been forecasting that Q4, we'd see the impact of that, but we also have a number of significant customers that we have signed up, that we see them ramping up next year on Snowflake as well as some of the things we're doing with Snowpark with Python, we're starting to see traction in that as well, too. I would say the only thing that's really changed this quarter, and it's a very small piece of our overall revenue is the SMB segment, you're really seeing a slowdown in consumption by those customers. I really haven't looked at that, but I'm not -- what I will say is customers today, we spend a lot more time with them on making sure they use Snowflake efficiently, and there's a lot more people that have experience with Snowflake that it's -- I think the customers that were growing on Snowflake today that are starting out are much, much more efficient in how they use Snowflake."
+}

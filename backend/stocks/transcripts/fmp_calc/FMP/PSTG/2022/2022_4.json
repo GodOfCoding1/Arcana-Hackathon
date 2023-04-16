@@ -1,0 +1,7 @@
+{
+    "symbol": "PSTG",
+    "quarter": 4,
+    "year": 2022,
+    "date": "2022-03-02 22:08:06",
+    "content": " Furthermore, Pure's proprietary hardware provides higher performance, reliability and longer lifetime while requiring less space, power and cooling than competitors' commodity-based systems, competitors would need entirely new designs and years of new software development to replicate Pure's advantages. We're still -- that is the industry and customers are still very early in their development of container-based applications, but it is a -- when I say that, it's because most of their new developments are in -- are on containers using Kubernetes, but they have -- very few of them have gone into production. And that's where we really see customers across the board, recognizing that Portworx is really the only solution out there that's able to solve the entire set of data challenges and needs around the container environment, whether that's the container storage infrastructure, the data management workflows or now with Portworx data services, providing the data service and application tool capabilities with the integrated and curated database deployments."
+}

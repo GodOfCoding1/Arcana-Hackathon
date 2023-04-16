@@ -1,0 +1,7 @@
+{
+    "symbol": "ESTC",
+    "quarter": 2,
+    "year": 2022,
+    "date": "2021-12-01 22:43:04",
+    "content": " The first part is around the effort of running Elastic Cloud natively on all the cloud hyperscalers, Amazon, AWS, Google Cloud, and Microsoft Azure, that's a lot of work on the product side from integrations with the marketplaces, billing engines, various data sources that they provide and providing a single pane of glass across all of those data sources, all of these cloud providers, sorry, with our cross-cluster search capabilities and the ability to search across all of them from a single location, that really resonates with our customer base, and that's not an easy thing to implement, especially with large enterprises."
+}

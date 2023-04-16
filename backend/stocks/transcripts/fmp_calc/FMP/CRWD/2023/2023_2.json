@@ -1,0 +1,7 @@
+{
+    "symbol": "CRWD",
+    "quarter": 2,
+    "year": 2023,
+    "date": "2022-08-30 21:48:03",
+    "content": " In Q2, the number of customers subscribing to our Identity Protection modules grew more than 100% quarter-over-quarter driven in part by a new logo attach rate that tripled, with close to 80% of cyber attacks leveraging identity-based tactics to compromise legitimate credentials and use techniques like lateral movement to quickly evade detection. Building on the cloud-native application protection platform or CNAPP capabilities we introduced last quarter, this quarter, we announced new CNAPP capabilities to extend support within AWS Fargate to Amazon\u00e2\u0080\u0099s Elastic Container Service, introduced the first AI-powered indicators of attack, comprehensive fileless attack prevention and enhanced visibility for cloud intrusions and introduced Falcon OverWatch cloud threat hunting, the first stand-alone cloud threat hunting service for threats originating, operating or persisting in cloud environments."
+}
