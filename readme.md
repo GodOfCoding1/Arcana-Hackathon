@@ -12,7 +12,7 @@ In "Backend" Directory
 
 - run server
     change directory to stocks
-    ```python manage.py ########```
+    ```python manage.py runserver```
 
 ## Locally Hosting frontend
     In "Frontend" Directory
