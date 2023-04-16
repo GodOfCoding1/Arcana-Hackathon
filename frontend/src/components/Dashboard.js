@@ -74,12 +74,11 @@ const Dashboard = () => {
             stock={stockSymbol}
             name={stockDetails.name}
           />
-          <PricePredictor stock={stockSymbol} />
-        </Stack>
-        <Card sx={{ pt: 1 }}>
-          <Chart filterDates={filterDates} />
-        </Card>
-        <Stack flexDirection={"row"}>
+         <Card sx={{ ml: 2, width: "50%" }}>
+            <Details details={stockDetails} />
+          </Card>
+        </Stack> 
+        <Stack flexDirection={"row"} height={100}>
           <Overview
             symbol={stockSymbol}
             price={quote.pc}
@@ -88,10 +87,13 @@ const Dashboard = () => {
             currency={stockDetails.currency}
           />
 
-          <Card sx={{ ml: 2, width: "100%" }}>
-            <Details details={stockDetails} />
-          </Card>
+         
         </Stack>
+        <Card sx={{ pt: 1 }}>
+          <Chart filterDates={filterDates} />
+        </Card>
+        <PricePredictor stock={stockSymbol} />
+       
         <Card>
           <Transcripts symbol={stockSymbol} />
         </Card>

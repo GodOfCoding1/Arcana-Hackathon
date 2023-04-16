@@ -11,6 +11,7 @@ import {
   Typography,
 } from "@mui/material";
 import { formatDate } from "../utils/helpers/date-helper";
+import Chart from "./ChartDataInput";
 
 const PricePredictor = ({ stock }) => {
   const [data, setData] = useState([]);
@@ -36,7 +37,7 @@ const PricePredictor = ({ stock }) => {
 
   return (
     <>
-      <Card sx={{ ml: 2, width: "50%" }}>
+      <Card sx={{ ml: 2}}>
         <Stack p={2} spacing={2}>
           <Typography variant="h6">
             <b>Predict Price</b>
@@ -49,7 +50,7 @@ const PricePredictor = ({ stock }) => {
                 label="Select number of days"
                 onChange={handleChange}
               >
-                {[1, 2, 3, 4, 5].map((item, i) => (
+                {[1, 2, 3, 7, 30].map((item, i) => (
                   <MenuItem key={i} value={item}>
                     {item}
                   </MenuItem>
@@ -57,32 +58,33 @@ const PricePredictor = ({ stock }) => {
               </Select>
             </FormControl>
           </Stack>
-          {data.slice(1).map((value, i) => (
-            <Stack flexDirection={"row"}>
+          {data.length>0?<><Chart data={data.map((item)=>({value:item[0],date:item[1]}))}/> <Stack flexDirection={"row"}>
               <Box component={"div"}>
-                At <b>{formatDate(value[1])}</b>, Price is{" "}
-                <b>{value[0].toString().slice(0, 7)}</b>
+                At end of {days} days on <b>{formatDate(data[data.length-1][1])}</b>, Price is{" "}
+                <b>{data[data.length-1].toString().slice(0, 7)}</b>
               </Box>
               <Box
                 component={"div"}
-                sx={{ color: data[0][0] > value[0] ? "red" : "green", ml: 2 }}
+                sx={{ color: data[0][0] > data[data.length-1][0] ? "red" : "green", ml: 2 }}
               >
-                {data[0][0] > value[0]
+                {data[0][0] > data[data.length-1][0]
                   ? "Drops by " +
                     (
-                      (Math.abs(value[0] - data[0][0]) / data[0][0]) *
+                      (Math.abs(data[data.length-1][0] - data[0][0]) / data[0][0]) *
                       100
                     ).toFixed(3) +
                     " %"
                   : "Rises by " +
                     (
-                      (Math.abs(value[0] - data[0][0]) / data[0][0]) *
+                      (Math.abs(data[data.length-1][0] - data[0][0]) / data[0][0]) *
                       100
                     ).toFixed(3) +
                     " %"}
               </Box>
-            </Stack>
-          ))}
+            </Stack></>:""}
+          
+           
+     
         </Stack>
       </Card>
     </>
