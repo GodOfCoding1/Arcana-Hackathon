@@ -1,22 +1,52 @@
-# Steps to Run
+# Stock Helper
+An app made to help investors/traders by providing stock predictions and transcript summarization  
 
-## Locally Hosting Backend
+## Features
+- **Stock Prediction models:** The website features a stock prediction model which can help in predicting future stock prices. 
+- **Summarized Transcripts:** The Website provides a summarized transcript of the quaterly fiscal meeting.
+- **User-Friendly Interface:** The website features a clean and intuitive user interface that is easy to navigate, with clear menus, search functionality, and customizable settings. It is designed to provide a seamless user experience, whether users are beginners or experienced investors/traders.
+## Technologies Used
+
+-   Front-end: ReactJS
+-   Back-end: Python, Django, Pytorch
+-   APIs: Stock market data APIs for real-time stock data and financial information
+
+### Please note
+- Data was preprocessed using the file `Preprocess_Data.py`
+- Transcripts were summarized using `Summarize_Transcript.py`
+
+## Steps to Run
+
+### 1) Locally Hosting Backend
 In "Backend" Directory
 - Create a virtual environment if needed using:
-``` py -m venv .venv```
-```  .venv/Scripts/activate.bat //In CMD  ``` 
-```.venv/Scripts/Activate.ps1 //In Powershell ```
 
-- install requiremnts
-    ```pip install -r requirements.txt```
+       py -m venv .venv
+    
+- Activate virtual environment.
 
-- run server
-    change directory to stocks
-    ```python manage.py runserver```
+	    .venv/Scripts/activate.bat //In CMD  
+	    .venv/Scripts/Activate.ps1 //In Powershell
 
-## Locally Hosting frontend
-    In "Frontend" Directory
-    Prerequisite : nodejs must be installed
-    Run
-    ```npm -i ```
-    ```npm start```
+- install requirements
+
+
+     	 pip install -r requirements.txt
+
+
+- Running backend server
+    change directory to \stocks	then do 
+    
+  	  python manage.py runserver
+    
+### 2) Locally Hosting frontend
+- In "Frontend" Directory
+
+- Run
+
+	     npm i 
+		 npm start
+
+- Webapp should be running at localhost:3000
+
+### 3) Select a stock by searching for it on the search bar on the top left
