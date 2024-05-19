@@ -1,4 +1,4 @@
-# Stock Helper
+# Stock Helper (won 2nd in a hackathon)
 An app made to help investors/traders by providing stock predictions and transcript summarization  
 
 ## Features
